@@ -1,0 +1,57 @@
+[submodule "external/glfw"]
+	path = external/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "external/lvgl"]
+	path = external/lvgl
+	url = https://github.com/lvgl/lvgl.git
+[submodule "external/flatbuffers"]
+	path = external/flatbuffers
+	url = https://github.com/google/flatbuffers.git
+[submodule "external/protobuf"]
+	path = external/protobuf
+	url = https://github.com/protocolbuffers/protobuf.git
+[submodule "external/googletest"]
+	path = external/googletest
+	url = https://github.com/google/googletest.git
+[submodule "external/redis"]
+	path = external/redis
+	url = https://github.com/redis/redis.git
+[submodule "external/hiredis"]
+	path = external/hiredis
+	url = https://github.com/redis/hiredis.git
+[submodule "external/redis-cpp"]
+	path = external/redis-cpp
+	url = https://github.com/tdv/redis-cpp.git
+[submodule "external/openssl"]
+	path = external/openssl
+	url = https://github.com/openssl/openssl.git
+[submodule "external/CMake"]
+	path = external/CMake
+	url = https://github.com/Kitware/CMake.git
+[submodule "external/mbedtls"]
+	path = external/mbedtls
+	url = https://github.com/Mbed-TLS/mbedtls.git
+[submodule "external/simpleBLE"]
+	path = external/simpleBLE
+	url = https://github.com/OpenBluetoothToolbox/SimpleBLE.git
+[submodule "external/GUIslice"]
+	path = external/GUIslice
+	url = https://github.com/ImpulseAdventure/GUIslice.git
+[submodule "external/Catch2"]
+	path = external/Catch2
+	url = https://github.com/catchorg/Catch2.git
+[submodule "external/doctest"]
+	path = external/doctest
+	url = https://github.com/doctest/doctest.git
+[submodule "external/leveldb"]
+	path = external/leveldb
+	url = https://github.com/google/leveldb.git
+[submodule "external/glog"]
+	path = external/glog
+	url = https://github.com/google/glog.git
+[submodule "external/cpplint"]
+	path = external/cpplint
+	url = https://github.com/cpplint/cpplint.git
+[submodule "external/cppunit"]
+	path = external/cppunit
+	url = https://github.com/cppunit/cppunit.git

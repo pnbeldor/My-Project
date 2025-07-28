@@ -1,0 +1,50 @@
+//Example schema
+
+namespace MyProject.Example;
+
+enum Color: byte {Red = 0, Green, Blue = 2}
+
+union Any {Monster, Weapon, Pickup}
+
+struct Vec3
+{
+    x:float;
+    y:float;
+    z:float;
+}
+
+table Monster
+{
+    pos:Vec3; //struct
+    mana:short = 150;
+    hp:short = 100;
+    name:string;
+    friendly:bool = false (deprecated);
+    inventory:[ubyte]; //Vector of scalars.
+    color:Color = Blue;  //Enum.
+    test:Any;
+    //Weapons:[Weapon];  //Vector of table
+    //equipped:Equipment;  //Union
+    //path:[Vec3];   //Vector of structs
+}
+
+table Weapon
+{
+    name:string;
+    damage:short;
+}
+
+table Pickup
+{
+
+}
+
+table SearchRequest
+{
+    query:string;
+    page_number:int;
+    results_per_page:int;
+    val:bool;
+}
+
+root_type Monster;
